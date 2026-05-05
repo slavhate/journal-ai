@@ -1,6 +1,7 @@
 # Daily Journal AI
 
 [![Docker Hub](https://img.shields.io/docker/pulls/shri32msi/journal-ai?logo=docker)](https://hub.docker.com/r/shri32msi/journal-ai)
+[![Docker Image Version](https://img.shields.io/docker/v/shri32msi/journal-ai?sort=semver&logo=docker)](https://hub.docker.com/r/shri32msi/journal-ai/tags)
 
 A personal daily journaling app with AI-powered entry formatting and semantic search.
 
@@ -47,6 +48,8 @@ docker-compose.yml
 Pull the pre-built image and run it against your local Ollama instance:
 
 ```bash
+docker pull shri32msi/journal-ai:1.0.0
+# or always get the latest
 docker pull shri32msi/journal-ai:latest
 ```
 
