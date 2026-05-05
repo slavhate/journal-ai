@@ -2,6 +2,7 @@ data/
 docs/
 scripts/
 tools/
+tests/
 build-multiarch.sh
 .claude/
 .superpowers/
