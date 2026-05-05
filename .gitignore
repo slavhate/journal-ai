@@ -1,6 +1,7 @@
 data/
 docs/
 scripts/
+build-multiarch.sh
 __pycache__/
 *.pyc
 .env
