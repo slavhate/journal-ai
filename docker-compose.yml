@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8550:8550"
+    volumes:
+      - ./data:/data
+    environment:
+      - OLLAMA_BASE_URL=http://172.17.0.1:11434
+      - DATA_DIR=/data
+      - FORMATTING_MODEL=llama3.2:latest
+      - EMBEDDING_MODEL=nomic-embed-text
+      - APP_PORT=8550
